@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://codex-oqsi.onrender.com', {
+    const response = await fetch('https://codex-oqsi.onrender.com/', { 
         //mode: 'no-cors',
         method: 'POST',
         headers: {
